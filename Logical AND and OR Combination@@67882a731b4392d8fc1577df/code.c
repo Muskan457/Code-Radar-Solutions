@@ -20,14 +20,6 @@ int main()
    {
     printf("False");
    }
-   else
-   {
-    printf("False");
-   }
-   else
-   {
-    printf("False");
-   }
    
      
     return 0;
