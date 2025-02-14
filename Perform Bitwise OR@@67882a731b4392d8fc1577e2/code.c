@@ -5,7 +5,7 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
     c=a|b;
-    printf("%d|%d is %d"c);
+    printf("%d"c);
     return 0;
 
 }
