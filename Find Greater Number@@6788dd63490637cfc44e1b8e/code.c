@@ -8,12 +8,10 @@ int main()
     {
         printf("%d",a);
     }
-    else if(b>a)
+    else(b>a)
     {
         printf("%d",b);
     }
-    else{
-        printf(a);
-    }
+   
     return 0;
 }
