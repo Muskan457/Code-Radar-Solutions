@@ -6,14 +6,14 @@ int main()
     scanf("%d",&b);
     if(a>b)
     {
-        printf("Even");
+        printf("%d",a);
     }
     else if(b>a)
     {
-        printf("Odd");
+        printf("%d",b);
     }
     else{
-        printf("Equal");
+        printf(a);
     }
     return 0;
 }
