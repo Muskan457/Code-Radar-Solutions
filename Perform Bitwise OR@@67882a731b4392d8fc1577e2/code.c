@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    c=a | b;
-    printf("%d"c);
-    return 0;
+    unsigned int x = 12; // 1100 in binary
+    unsigned int y = 25; // 11001 in binary
+    unsigned int result;
 
+    result = x | y; // Performing bitwise OR
+
+    printf("Result of %u | %u = %u\n", x, y, result);
+    return 0;
 }
