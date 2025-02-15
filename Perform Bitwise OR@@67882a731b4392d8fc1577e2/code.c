@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    unsigned int x = 12; // 1100 in binary
-    unsigned int y = 25; // 11001 in binary
-    unsigned int result;
+  int x,y;
 
     result = x | y; // Performing bitwise OR
 
