@@ -13,7 +13,7 @@ int main()
         printf("Odd");
     }
     else{
-        printf("Equal")
+        printf("Equal");
     }
     return 0;
 }
