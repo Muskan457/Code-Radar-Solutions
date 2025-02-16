@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+int main()
+{
 
 
 bool isPrime(int num) {
@@ -16,7 +17,7 @@ bool isPrime(int num) {
     return true;
 }
 
-int main() {
+{
     int num;
 
     // Ask the user to input a number
@@ -31,4 +32,5 @@ int main() {
     }
 
     return 0;
+}
 }
