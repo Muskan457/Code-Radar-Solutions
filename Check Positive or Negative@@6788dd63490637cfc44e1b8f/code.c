@@ -1,17 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int number;
-    if(number > 0)
+    int a;
+    scanf("%d",&a);
+    if(a>0)
     {
         printf("Positive");
     }
-   else if(number < 0)
-   {
-    printf("Negative");
-   }
-   else{
-    printf("Zero");
-   }
+    else if(a<0)
+    {
+        printf("Negative");
+    }
+    else
+    {
+        printf("Zero");
+    }
     return 0;
 }
