@@ -7,7 +7,7 @@ int main()
     {
         printf("Vowel");
     }
-    else if(ch>=0 && ch<=100)
+    else if(ch>0 && ch<=100)
     {
         printf("Digit");
     }
