@@ -1,17 +1,26 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if((a%4==0) || (a%100==0 && a%400!=0))
-    {
-        printf("Leap Year");
-        
+    int year;
+   // Ask the user to input the year
+    scanf("%d", &year);
 
+    // Check if the year is a leap year
+    if (year % 4 == 0) {
+        if (year % 100 == 0) {
+            if (year % 400 == 0) {
+                printf("%d is a leap year.\n", year);
+            } else {
+                printf("%d is not a leap year.\n", year);
+            }
+        } else {
+            printf("%d is a leap year.\n", year);
+        }
+    } else {
+        printf("%d is not a leap year.\n", year);
     }
-    else
-    {
-        printf("Not a Leap Year");
-    }
+
     return 0;
 }
+
+    
