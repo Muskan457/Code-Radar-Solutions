@@ -7,6 +7,10 @@ int main()
     {
         printf("Uppercase");
     }
+    else if(ch>=0 && ch<=100)
+    {
+        printf("Not an alphabet");
+    }
     else
     {
         printf("Lowercase");
