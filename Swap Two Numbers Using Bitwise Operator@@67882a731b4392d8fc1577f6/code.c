@@ -7,5 +7,5 @@ int main()
     b=a^b;
     a=a^b;
     printf("%d %d",a,b);
-    retrun 0;
+    return 0;
 }
