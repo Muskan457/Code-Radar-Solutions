@@ -7,7 +7,7 @@ int main() {
     // Outer loop for the number of rows
     for (a = 1; a <= N; a++) {         
         // Inner loop for printing stars
-        for (b = N ; b >= 1; b--) {   // Decrease stars in each row
+        for (b = N-1; b >= 1; b--) {   // Decrease stars in each row
             printf("* ");
         }         
         printf("\n");  // Move to the next line after printing all stars in a row
