@@ -13,11 +13,13 @@ int main()
         {
             printf("%d",c);
         }
-        printf("\n");
-    }
+    
     for(b=a-1;b>=1;b--)
     {
         printf("%d",b);
     }
+    printf("\n");
+    }
+
     return 0;
 }
