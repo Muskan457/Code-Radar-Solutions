@@ -14,6 +14,7 @@ scanf("%d",&N);
             printf("*");
         
         }
+        printf("\n");
     }
     for(a=N-1;a>=1;a--)
     {
