@@ -12,6 +12,7 @@ int main()
             printf("%c ",ch);
         }
         printf("\n");
+        ch++;
 
     }
     return 0;
