@@ -9,7 +9,7 @@ scanf("%d",&N);
         {
             printf(" ");
         }
-        for(c=1;c=(2*a)-1;c++)
+        for(c=1;c>=(2*a)-1;c++)
         {
             printf("*");
         }
