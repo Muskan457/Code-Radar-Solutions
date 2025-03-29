@@ -17,15 +17,16 @@ scanf("%d",&N);
     }
     for(a=N-1;a>=1;a--)
     {
-        for(b=1;b<N-a;b++)
+        for(b=1;b<=N-a;b++)
         {
             printf(" ");
         }
         for(c=(2*a)-1;c>=1;c--)
         {
             printf("*");
-            printf("\n");
+            
         }
+        printf("\n");
         
     }
     return 0;
