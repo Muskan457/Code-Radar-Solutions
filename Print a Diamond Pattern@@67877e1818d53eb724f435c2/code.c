@@ -12,6 +12,7 @@ scanf("%d",&N);
         for(c=1;c<=(2*a)-1;c++)
         {
             printf("*");
+            printf("\n");
         }
     }
     for(a=N-1;a>=1;a--)
