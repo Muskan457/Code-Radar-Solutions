@@ -11,7 +11,7 @@ int main()
         }
         for(c=1;c<=a;c++)
         {
-            printf("%d ",c);
+            printf(" %d ",c);
         }
         printf("\n");
     }
