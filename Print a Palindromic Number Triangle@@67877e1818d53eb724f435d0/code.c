@@ -15,6 +15,9 @@ int main()
         }
         printf("\n");
     }
-   
+    for(b=a-1;b>=1,b--)
+    {
+        printf("%d",b);
+    }
     return 0;
 }
