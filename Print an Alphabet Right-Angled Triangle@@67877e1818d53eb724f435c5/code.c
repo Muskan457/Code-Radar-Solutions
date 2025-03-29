@@ -1,20 +1,20 @@
 #include <stdio.h>
-int main()
-{
+
+int main() {
+    int i, j,N;
     char ch;
-    int a,b,N;
-    scanf("%d",&N);
+
     
-    
-    for(a=1;a<=N;a++)
-    {
-        ch='A'
-        for(b=1;b<=a;b++)
-        {
-            printf("%c ",ch);
+    scanf("%d", &rows);
+
+    for (i = 1; i <= N; i++) {
+        ch = 'A';  // Reset to 'A' for each row
+        for (j = 1; j <= i; j++) {
+            printf("%c ", ch);
+            ch++;  // Move to the next letter
         }
-        ch++
         printf("\n");
     }
+
     return 0;
 }
