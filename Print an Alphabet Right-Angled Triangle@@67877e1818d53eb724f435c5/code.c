@@ -2,8 +2,9 @@
 int main()
 {
     int a,b,N;
-    char ch='A'
     scanf("%d",&N);
+    char ch='A'
+    
     for(a=1;a<=N;a++)
     {
         for(b=1;b<=a;b++)
