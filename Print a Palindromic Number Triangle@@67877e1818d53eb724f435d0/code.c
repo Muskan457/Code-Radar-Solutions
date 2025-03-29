@@ -15,13 +15,6 @@ int main()
         }
         printf("\n");
     }
-    for(a=N;a>1;a--)
-    {
-        for(b=N-1;b>=1;b--)
-        {
-            printf("%d",b);
-        }
-        printf("\n");
-    }
+   
     return 0;
 }
