@@ -11,7 +11,7 @@ int main()
         {
             printf("%c ",ch);
         }
-        ch++
+        ch++;
         printf("\n");
         
 
