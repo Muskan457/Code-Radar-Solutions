@@ -5,7 +5,7 @@ int main() {
     char ch;
 
     
-    scanf("%d", &rows);
+    scanf("%d", &N);
 
     for (i = 1; i <= N; i++) {
         ch = 'A';  // Reset to 'A' for each row
