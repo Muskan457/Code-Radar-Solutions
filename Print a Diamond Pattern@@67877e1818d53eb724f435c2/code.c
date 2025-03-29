@@ -23,6 +23,7 @@ scanf("%d",&N);
         for(c=(2*a)-1;c>=1;c--)
         {
             printf("*");
+            printf("\n");
         }
         
     }
